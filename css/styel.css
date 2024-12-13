@@ -1,0 +1,133 @@
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    animation-name: change;
+    animation-duration:5s ;
+    animation-delay: 0;
+
+animation-fill-mode: forwards;
+}
+@keyframes change{
+0%{
+    background-color: blue;
+    left: 0;
+}
+100%{
+    background-color: blue;
+    left: 1436;
+}
+}
+
+.div2{
+   
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+   top:110px ;
+    animation-name: mai;
+    animation-duration:5s ;
+animation-delay: 5s;
+animation-fill-mode: forwards;
+right: 0;
+}
+@keyframes mai{
+0%{
+    background-color: blue;
+   
+}
+100%{
+    right: 1436;
+}
+}
+.div3{
+   
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+   top:220px ;
+    animation-name: change;
+    animation-duration:5s ;
+animation-delay: 10s;
+animation-fill-mode: forwards;
+left: 0;
+}
+@keyframes change{
+0%{
+    background-color: blue;
+    left: 0;
+}
+100%{
+    left: 1436;
+}
+}
+.div4{
+   
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+   top:330px ;
+    animation-name: mai;
+    animation-duration:5s ;
+animation-delay: 15s;
+animation-fill-mode: forwards;
+right: 0;
+}
+@keyframes mai{
+0%{
+    background-color: blue;
+   
+}
+100%{
+    right: 1436;
+}
+}
+.div5{
+   
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+   top:440px ;
+    animation-name: change;
+    animation-duration:5s ;
+animation-delay: 20s;
+animation-fill-mode: forwards;
+left: 0;
+}
+@keyframes change{
+0%{
+    background-color: blue;
+    left: 0;
+}
+100%{
+    left: 1436;
+}
+}
+.div6{
+   
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+   top:550px ;
+    animation-name: mai;
+    animation-duration:5s ;
+animation-delay: 25s;
+animation-fill-mode: forwards;
+right: 0;
+}
+@keyframes mai{
+0%{
+    background-color: blue;
+   
+}
+100%{
+    right: 1436;
+}
+}
